@@ -1,0 +1,72 @@
+[
+  {
+    "id": "US-001",
+    "title": "User can log in with email and password",
+    "points": 3,
+    "acceptance_criteria": "",
+    "epic": "Auth"
+  },
+  {
+    "id": "US-002",
+    "title": "As a user I want to manage my entire profile including all personal settings and notification preferences and billing details all in one place",
+    "points": 13,
+    "acceptance_criteria": "User can edit profile",
+    "epic": "Profile"
+  },
+  {
+    "id": "US-003",
+    "title": "Password reset flow",
+    "points": 2,
+    "acceptance_criteria": "Given a registered user, when they click 'Forgot password' and enter their email, then they receive a reset link within 2 minutes. Given expired link, when clicked, then an error message is shown.",
+    "epic": "Auth"
+  },
+  {
+    "id": "US-004",
+    "title": "Admin dashboard",
+    "points": 40,
+    "acceptance_criteria": "Admin can see stuff",
+    "epic": ""
+  },
+  {
+    "id": "US-005",
+    "title": "Search feature",
+    "points": 5,
+    "acceptance_criteria": "User can search",
+    "epic": "Discovery"
+  },
+  {
+    "id": "US-006",
+    "title": "Notification emails",
+    "points": 0,
+    "acceptance_criteria": "",
+    "epic": "Notifications"
+  },
+  {
+    "id": "US-007",
+    "title": "Export data to CSV",
+    "points": 2,
+    "acceptance_criteria": "Given user on data page, when they click Export, then a CSV file is downloaded within 3 seconds with all visible columns.",
+    "epic": "Data"
+  },
+  {
+    "id": "US-008",
+    "title": "Mobile responsive design for all pages",
+    "points": 8,
+    "acceptance_criteria": "Pages look okay on phone",
+    "epic": ""
+  },
+  {
+    "id": "US-009",
+    "title": "User profile picture upload",
+    "points": 3,
+    "acceptance_criteria": "",
+    "epic": "Profile"
+  },
+  {
+    "id": "US-010",
+    "title": "Two-factor authentication setup and management including SMS TOTP backup codes and account recovery flows",
+    "points": 13,
+    "acceptance_criteria": "2FA works",
+    "epic": "Auth"
+  }
+]
